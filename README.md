@@ -4,7 +4,7 @@
 3. cd airdropper
 4. npm install
 5. configuration in airdropper.js
-6. node airdropper.js <addresses filename> <from address> <privatekey>
+6. node airdropper.js &lt;addresses filename&gt; \<from address\> \<privatekey>
 *Use INFURA for this script.
 *Compiled contranct by truffle.
 
