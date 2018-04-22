@@ -149,6 +149,7 @@ async function main(){
 					process.exit(1);
 				} else if(result.match(/Already/)){
 					console.log({success: false, address: toAddresses[i], message: result});
+					i++;
 				} else if(result.match(/known transaction/)){
 					console.log({success: false, address: toAddresses[i], message: result});
 					resultWait = await send_wait(750);
